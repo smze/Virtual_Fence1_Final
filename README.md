@@ -52,11 +52,11 @@ The CrowdHuman dataset is used to detect people in crowded scenes. This dataset 
 
 2. Pexels Dataset:
 
-Additional data from Pexels is used to fine-tune the model. These are images and short videos of crowded urban scenes, labeled using LabelImg.
+Additional data from Pexels is used to fine-tune the model. These are images and short videos of crowded urban scenes, labeled using make sense.
 
 3. Data Preparation:
 
-Labeling Pexels Images: Images from Pexels are manually labeled using LabelImg, where bounding boxes are drawn around the people in the scenes.
+Labeling Pexels Images: Images from Pexels are manually labeled using make sense, where bounding boxes are drawn around the people in the scenes.
 
 Splitting Video Frames: The input video (e.g., input.mp4) is split into individual frames, which are then labeled for training.
 
@@ -77,7 +77,7 @@ YOLOv5 dependencies
 
 NumPy
 
-LabelImg (for labeling images)
+make sense (for labeling images)
 
 Setup:
 
@@ -92,11 +92,6 @@ Install required libraries:
 pip install -r requirements.txt
 
 
-Ensure you have LabelImg installed for labeling images:
-
-Install LabelImg by following the instructions on its GitHub page: LabelImg
-.
-
 Dataset Preparation:
 
 Download the CrowdHuman dataset:
@@ -104,7 +99,7 @@ You can download it directly from the Hugging Face dataset or the official link 
 
 Label Pexels Images:
 
-Use LabelImg to label images from Pexels (bounding boxes around people).
+Use make sense to label images from Pexels (bounding boxes around people).
 
 Convert the labels into YOLO format using the provided Python script.
 
