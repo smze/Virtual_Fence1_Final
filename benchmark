@@ -1,0 +1,14 @@
+Benchmark (English Version)
+
+To evaluate system performance, a benchmark script (benchmark.ipynb) compares the three implemented approaches: OMNI VLM, YOLOv5, and the Custom Method.
+The benchmark includes both accuracy and speed (inference time) metrics measured on the same test video.
+
+Results are presented in tables and visual charts, showing:
+
+Detection accuracy (Precision, Recall, F1-score)
+
+Average inference time per frame (FPS)
+
+People counting accuracy within the predefined zone
+
+The goal of this comparison is to determine which method provides the best balance between accuracy and real-time performance, particularly for deployment on Raspberry Pi
