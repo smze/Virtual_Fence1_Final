@@ -29,7 +29,7 @@ Three distinct methods are implemented and benchmarked:
 
 ---
 
-## 🧩 Frameworks & Tools
+##  Frameworks & Tools
 
 * **PyTorch** – for model development and inference
 * **YOLOv5** – pretrained model fine-tuned on the combined dataset
@@ -58,7 +58,7 @@ Both datasets are combined during fine-tuning for improved generalization.
 
 ---
 
-## 🧰 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -108,7 +108,7 @@ python combine_datasets.py
 
 ---
 
-## 🚀 Model Training
+##  Model Training
 
 ### YOLOv5 Training
 
@@ -173,7 +173,7 @@ python benchmark.py
 
 ---
 
-## 🧠 Notes on Raspberry Pi Optimization
+##  Notes on Raspberry Pi Optimization
 
 * MobileNet model is quantized and pruned for faster inference.
 * OpenCV’s `cv2.dnn` backend and `cv2.VideoWriter` are used for efficiency.
@@ -181,7 +181,7 @@ python benchmark.py
 
 ---
 
-## 🧩 Repository Structure
+##  Repository Structure
 
 ```
 /virtual-fence
