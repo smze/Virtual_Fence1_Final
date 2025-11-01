@@ -83,7 +83,7 @@ Setup:
 
 Clone this repository:
 
-git clone https://github.com/username/virtual-fence-project.git
+git clone https://github.com/smze/Virtual_Fence1_Final
 cd virtual-fence-project
 
 
@@ -92,19 +92,14 @@ Install required libraries:
 pip install -r requirements.txt
 
 
-Ensure you have LabelImg installed for labeling images:
-
-Install LabelImg by following the instructions on its GitHub page: LabelImg
-.
-
 Dataset Preparation:
 
 Download the CrowdHuman dataset:
 You can download it directly from the Hugging Face dataset or the official link for CrowdHuman annotations.
 
-Label Pexels Images:
+make sense:
 
-Use LabelImg to label images from Pexels (bounding boxes around people).
+Use make sense to label images from Pexels (bounding boxes around people).
 
 Convert the labels into YOLO format using the provided Python script.
 
